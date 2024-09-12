@@ -147,7 +147,7 @@ function App() {
               <div className="content-para">
               I am actively seeking <strong>internship</strong> opportunities where I can contribute my expertise in frontend development and Java, learn from industry professionals, and further refine my skill set. If you have an opportunity that aligns with my background, I would love to <strong>connect </strong>and explore how I can bring value to your team.
               </div>
-              <button>
+              <button id="skii">
                 <a href="#contact">contact</a>
               </button>
             </div>
