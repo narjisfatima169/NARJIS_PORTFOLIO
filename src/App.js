@@ -73,10 +73,10 @@ function App() {
               development skills{" "}
             </p>
             <div style={{display: 'flex', flexDirection: 'row', gap: '1.4rem'}}>
-              <button>
+              <button id="skii">
                 <a href="#project">project</a>{" "}
               </button>
-              <button>
+              <button id="skii">
                 <a href="https://drive.google.com/file/d/1p6db8_52Zq5Bwkv822S6x5RT8W1TPVpl/view?usp=sharing" target="_blank"  rel="noreferrer">Resume</a>{" "}
               </button>
             </div>
@@ -154,43 +154,43 @@ function App() {
             <div className="right-content" data-aos="fade-left">
               <div className="content-heading">My Skills</div>
               <div className="skills">
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   HTML5 <AiFillHtml5 className="skills__icon" />
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   css <FaCss3Alt className="skills__icon" />
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   javascript <SiJavascript className="skills__icon" />
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   React . js <FaReact className="skills__icon" />
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   Git <SiGit className="skills__icon" />
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   github <AiFillGithub className="skills__icon" />
                 </div>
                 {/* <div className="skills__skill" data-aos="fade-up">
                   Vs code <VscVscode className="skills__icon" />
                 </div> */}
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   Bootstrap <FaBootstrap className="skills__icon" />
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   node js <DiNodejsSmall className="skills__icon" />
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   mongo db <DiMongodb className="skills__icon" />
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   sql <AiOutlineConsoleSql className="skills__icon" />{" "}
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   java <FaJava className="skills__icon" />
                 </div>
-                <div className="skills__skill" data-aos="fade-up">
+                <div id="skii" className="skills__skill" data-aos="fade-up">
                   python <DiPython className="skills__icon" />
                 </div>
               </div>
@@ -291,7 +291,7 @@ function App() {
                     />
                   </div>
                   <div className="app-form-group buttons">
-                    <button type="submit">SEND</button>
+                    <button type="submit" id="skii">SEND</button>
                   </div>
                 </form>
               </div>

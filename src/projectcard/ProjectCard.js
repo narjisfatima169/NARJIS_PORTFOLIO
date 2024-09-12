@@ -42,7 +42,7 @@ const ProjectCard = ({ ele }) => {
                   </span>
                 ))}
               </div>
-              <button>
+              <button id ="skii">
                 <a href={url} target="_blank" rel="noreferrer">
                   View project
                 </a>
